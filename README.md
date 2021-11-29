@@ -15,7 +15,7 @@ To read about our methods, analyses, findings, and conclusion please take a look
 https://www.canva.com/design/DAErvNNmmvs/dPLR3pgYKCrdRK3e6jjcWA/view?utm_content=DAErvNNmmvs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#5
 
 # Repository Overview
-- `code`: Contains `analysis`, `modelling` and `deprecated` folders which contain the various notebooks for the project. Refer to README in `code` folder for directory.
+- `code`: Contains `analysis`, `modelling` and `deprecated` folders which contain the various notebooks for the project.
 - `data`: Raw dataset that was provided.
 - `instructions`: Instructions provided by client. Also includes a .txt file that eases understanding of formulas from the 2021_UMelbAppliedData_Worked_corrected Excel file.
 - `meeting_minutes`: Documented minutes for any meetings conducted by the team.
