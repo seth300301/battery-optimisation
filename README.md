@@ -12,7 +12,7 @@ This university project aims to develop an algorithm to maximise the revenue of 
 For more information about the project outline please take a look at 'Project Spec.pdf'.
 
 To read about our methods, analyses, findings, and conclusion please take a look at our presentation here:
-https://www.canva.com/design/DAErvNNmmvs/dPLR3pgYKCrdRK3e6jjcWA/view?utm_content=DAErvNNmmvs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#5
+https://www.canva.com/design/DAErvNNmmvs/dPLR3pgYKCrdRK3e6jjcWA/view?utm_content=DAErvNNmmvs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 # Repository Overview
 - `code`: Contains `analysis`, `modelling` and `deprecated` folders which contain the various notebooks for the project. Refer to README in `code` folder for directory.
