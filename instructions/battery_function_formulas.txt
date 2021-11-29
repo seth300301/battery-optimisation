@@ -1,0 +1,41 @@
+battery_power = 300
+battery_cap = 580
+discharge_eff = 90
+charge_eff = 90
+mlf = 0.991
+
+# Raw Power - power available to charge battery
+
+if charge_forecast:
+	return -MIN(battery_power, (battery_capacity - opening_cap)/(charge_efficiency/100)*2 )
+elif discharge_forecast:
+	return MIN(battery_power, opening_cap*2
+else:
+	return 0
+
+# Market dispatch - dispatch to market
+
+if raw_power < 0:
+	return (raw_power/2)
+else:
+	return (raw_power/2)*discharge_eff/100
+
+# Market revenue - $$
+
+if market_dispatch < 0:
+	return market_dispatch*spot_price*(1/mlf)
+else:
+	return market_dispatch*spot_price*mlf
+
+# Opening capacity = closing_capacity[t-1]
+
+# Closing capacity
+
+if market_dispatch < 0:
+	x = opening_cap - market_dispatch * (charge_eff/100)
+else:
+	x = opening_cap - market_dispatch * (100/discharge_eff)
+
+print(MAX(0, MIN(x, battery_cap)))
+
+

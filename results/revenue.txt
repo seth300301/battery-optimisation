@@ -1,0 +1,8 @@
+Mandatory Task:
+Training + Cross Validation Period: $114,849,536.52
+Test Period: $5,682,159.77
+Full Period: $120,531,696.29
+
+Bonus Task:
+Test Period: $2,730,368.76
+Full Period: $117,500,647.82
